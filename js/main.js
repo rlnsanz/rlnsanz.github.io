@@ -52,7 +52,7 @@ function __write__() {
                 .attr("align", "center")
                 .style("margin-top", "10px");
 
-                text_container.append('g').html('<ul class="hidden" style="margin-left: 10px;"> <li><a id="welcomelink" class="active" onclick="__welcome__()" style="cursor: pointer;">Welcome</a></li> <li><a id="researchlink" onclick="__research__()" style="cursor: pointer;">Research</a></li> <li><a id="newslink" onclick="__news__()" style="cursor: pointer;">News</a></li> <li><a id="cvlink" href="dat/RolandoGarciaCV.pdf" target="_blank">CV</a></li></ul> ');
+                text_container.append('g').html('<ul class="hidden" style="margin-left: 10px;"> <li><a id="welcomelink" class="active" onclick="__welcome__()" style="cursor: pointer;">Welcome</a></li> <li><a id="researchlink" onclick="__research__()" style="cursor: pointer;">Publications</a></li> <li><a id="newslink" onclick="__news__()" style="cursor: pointer;">News</a></li> <li><a id="cvlink" href="dat/RolandoGarciaCV.pdf" target="_blank">CV</a></li></ul> ');
 
             __links__.push(d3.select("#welcomelink"));
             __links__.push(d3.select("#researchlink"));
@@ -85,7 +85,7 @@ function __write__() {
                 if (e) console.log(e);
                 var text_container = __containers__.research;
                 text_container.html(researchhtml);
-		
+
 		if (~__initflags__.news) {
            		__initflags__.news = 1;
 
