@@ -67,7 +67,7 @@ function __write__() {
             __containers__.research = text_outer.append("div").attr("id", "researchcontainer").classed("hidden", true);
             __containers__.news = text_outer.append("div").attr("id", "newscontainer").classed("hidden", true);
 
-                text_container.append('g').html('<a href="https://scholar.google.com/citations?user=YiNKGP0AAAAJ" target="_blank"> <img style="max-width: 20%; margin-right: 2.5%; margin-left: 5px; margin-top: 0px; margin-bottom: 0px;" src="img/profile.png" align="left"></a>');
+                text_container.append('g').html('<a href="https://scholar.google.com/citations?user=YiNKGP0AAAAJ" target="_blank"> <img style="max-width: 14%; margin-right: 2.5%; margin-left: 5px; margin-top: 0px; margin-bottom: 0px;" src="img/profile.png" align="left"></a>');
 
             text_container.append('g').append("p")
                 .html(__biography__)
