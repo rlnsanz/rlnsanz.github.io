@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e0e76be-e2fe-447f-a640-b2b370afddde" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dat/biography.html" afterPath="$PROJECT_DIR$/dat/biography.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dat/research.html" afterPath="$PROJECT_DIR$/dat/research.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,17 +43,17 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="biography.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="biography.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/dat/biography.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="research.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="research.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/dat/research.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="15">
@@ -122,8 +120,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/normalize.css" />
         <option value="$PROJECT_DIR$/d3_apps/timeline.html" />
-        <option value="$PROJECT_DIR$/dat/biography.html" />
         <option value="$PROJECT_DIR$/dat/research.html" />
+        <option value="$PROJECT_DIR$/dat/biography.html" />
       </list>
     </option>
   </component>
@@ -335,7 +333,7 @@
       <workItem from="1563064494877" duration="9560000" />
       <workItem from="1563121911777" duration="96000" />
       <workItem from="1563157033043" duration="132000" />
-      <workItem from="1592321048679" duration="1632000" />
+      <workItem from="1592321048679" duration="1838000" />
     </task>
     <task id="LOCAL-00001" summary="added news.">
       <created>1487368322546</created>
@@ -390,7 +388,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38078000" />
+    <option name="totallyTimeSpent" value="38284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -766,24 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dat/biography.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dat/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -824,6 +804,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dat/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dat/research.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -837,6 +827,14 @@
             <element signature="n#style#0;n#li#3;n#ul#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#b#1;n#li#3;n#ul#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dat/biography.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
