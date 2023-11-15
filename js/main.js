@@ -52,7 +52,7 @@ function __write__() {
                 .attr("align", "center")
                 .style("margin-top", "10px");
 
-            text_container.append('g').html('<ul class="hidden" style="margin-left: 10px;"> <li><a id="welcomelink" class="active" onclick="__welcome__()" style="cursor: pointer;">About</a></li> <li><a id="researchlink" onclick="__research__()" style="cursor: pointer;">Publications</a></li> <li><a id="newslink" onclick="__news__()" style="cursor: pointer;">Talks</a></li> <li><a id="cvlink" href="https://github.com/ucbrise/flor" target="_blank">FlorDB 🌻</a></li></ul> ');
+            text_container.append('g').html('<ul class="hidden" style="margin-left: 10px;"> <li><a id="welcomelink" class="active" onclick="__welcome__()" style="cursor: pointer;">About</a></li> <li><a id="researchlink" onclick="__research__()" style="cursor: pointer;">Publications</a></li> <li><a id="newslink" onclick="__news__()" style="cursor: pointer;">Talks</a></li> <li><a id="cvlink" href="https://github.com/ucbrise/flor" target="_blank">FlorFlow 🌻</a></li></ul> ');
 
             __links__.push(d3.select("#welcomelink"));
             __links__.push(d3.select("#researchlink"));
