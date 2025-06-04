@@ -430,7 +430,3 @@ th {
  * Define consistent list styling.
  */
 
-ul {
-  list-style-type: disc; /* Ensures bullet points appear */
-  margin-left: 20px; /* Optional: Adds spacing */
-}
