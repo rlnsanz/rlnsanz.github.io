@@ -1,26 +1,23 @@
 <p>
-Hi, I'm Rolando Garcia, a computer scientist at Arizona State University.
-I study how people answer new questions about experiments they've already run.
-A machine learning (ML) team might save the accuracy score for each model it trains. Months later, a colleague wants to know whether two models with the same score made the same mistakes.
-What can that colleague recover from the old runs, and what did the team need to record at the time?
+Hi, I'm Rolando Garcia, a data systems researcher and Presidential Postdoctoral Fellow at Arizona State University.
+I study how people answer new questions about experiments they've already run: what a team needs to record at the time, and what it can recover later.
+I observe and interview teams at work, and build record-keeping systems with them.
 </p>
 
 <p>
-During my Ph.D. in UC Berkeley's <a href="http://rise.cs.berkeley.edu/" target="_blank">RISE Lab</a> with <a href="https://dsf.berkeley.edu/jmh/" target="_blank">Joe Hellerstein</a>, I developed <a href="https://github.com/ucbrise/flor" target="_blank">FlorDB</a>, a database for taking new measurements from past ML experiments.
-To compare those two models, a developer can add a logging statement to today's code. FlorDB replays the relevant steps from saved checkpoints to recover the individual predictions from both runs
-(<a href="http://www.vldb.org/pvldb/vol14/p682-garcia.pdf" target="_blank">VLDB '21</a>, <a href="https://www.vldb.org/cidrdb/papers/2025/p33-garcia.pdf" target="_blank">CIDR '25</a>).
-With Shreya Shankar, I co-led an interview study of 18 ML engineers across industries (<a href="https://dl.acm.org/doi/pdf/10.1145/3653697" target="_blank">CSCW '24</a>).
-One engineer described meeting with two teammates each week to review their model's mistakes. Analysts then collected similar cases so the team could test the next version on the kinds of errors people were seeing in practice.
-I want an engineer who inherits those tests to be able to trace a case back to the mistake that prompted the team to add it.
-My Ph.D. work was supported by an NSF Graduate Research Fellowship and a UC Berkeley Chancellor's Fellowship.
+During my Ph.D. with <a href="https://dsf.berkeley.edu/jmh/" target="_blank">Joe Hellerstein</a> in UC Berkeley's <a href="http://rise.cs.berkeley.edu/" target="_blank">RISE Lab</a>, I developed <a href="https://github.com/ucbrise/flor" target="_blank">FlorDB</a>, a database for querying past machine learning (ML) runs.
+When users report a recurring mistake, how far back does it go?
+Engineers can add a check to today's code, and FlorDB replays earlier runs to show how often each model version made that mistake (<a href="http://www.vldb.org/pvldb/vol14/p682-garcia.pdf" target="_blank">VLDB '21</a>, <a href="https://www.vldb.org/cidrdb/papers/2025/p33-garcia.pdf" target="_blank">CIDR '25</a>).
+With Shreya Shankar, I co-led an interview study showing how continual experimentation and collaboration sustain ML in production (<a href="https://dl.acm.org/doi/pdf/10.1145/3653697" target="_blank">CSCW '24</a>).
+My Ph.D. was supported by an NSF Graduate Research Fellowship and a UC Berkeley Chancellor's Fellowship.
 </p>
 
 <p>
-I'm a Presidential Postdoctoral Fellow in ASU's <a href="https://vader.lab.asu.edu/#/" target="_blank">VADER Lab</a>, where I work with my advisor, <a href="https://rmaciejewski.faculty.asu.edu/" target="_blank">Ross Maciejewski</a>.
-With <a href="https://ransml.github.io/lens-lab/index.html" target="_blank">Ransalu Senanayake</a>, I lead an interview study of how robotics researchers document physical experiments. If a robot succeeds on one trial and fails on the next, how can a lab mate check whether an object moved between trials?
-Drawing on those interviews, we plan to design tools with the labs so a researcher can open a trial's log and find the photos and notes that show where the object started.
-With <a href="https://search.asu.edu/profile/108687" target="_blank">Tyson Winarski</a> at ASU's Sandra Day O'Connor College of Law, I develop <a href="https://github.com/bwerick/scanstudio" target="_blank">ScanStudio</a>, which lets readers digitize their own papers and books with a webcam while keeping bindings intact.
-My recent work also includes linking citation and statistical checks to the passages they flag in manuscripts, and modeling when the benefits of human input in interactive ML systems justify the time and effort involved (<a href="/dat/IVML_Cost_Benefit_2026_VIS.pdf" target="_blank">VIS '26</a>, <a href="vis26.html" target="_blank">Slides</a>).
+I now study the physical and social dimensions of context, from the conditions of a robot trial to the judgments people make as they write and review documents.
+At ASU's <a href="https://vader.lab.asu.edu/#/" target="_blank">VADER Lab</a>, I'm working with <a href="https://rmaciejewski.faculty.asu.edu/" target="_blank">Ross Maciejewski</a> on a tool that helps reviewers see how a manuscript's claims draw on cited sources and statistical evidence.
+I also helped develop a cost model for deciding when another round of feedback in interactive ML is worth the time and effort (<a href="/dat/IVML_Cost_Benefit_2026_VIS.pdf" target="_blank">VIS '26</a>, <a href="vis26.html" target="_blank">Slides</a>).
+With <a href="https://ransml.github.io/lens-lab/index.html" target="_blank">Ransalu Senanayake</a>, I lead a field study of what robotics teams need to record to compare and reproduce trials.
+To study how knowledge workers check OCR text and verify corpora, ASU law professor <a href="https://search.asu.edu/profile/108687" target="_blank">Tyson Winarski</a> and I are developing <a href="https://github.com/bwerick/scanstudio" target="_blank">ScanStudio</a>, a non-destructive alternative to bulk digitization.
 </p>
 
 <p>
