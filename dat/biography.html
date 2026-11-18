@@ -1,27 +1,26 @@
 <p>
-I am a databases and data systems researcher focused on logging and record-keeping.
-I approach machine learning and AI from a data management perspective: what do teams need to record, how can they recover missing context, and how can those records support later review?
-Using AI in consequential work requires ongoing maintenance, oversight, and evidence that people can inspect. My research builds the data infrastructure to support that work.
-I combine systems research with qualitative studies of how teams work in practice, and co-design tools that fit their workflows.
+Hi, I'm Rolando Garcia, a computer scientist at Arizona State University.
+I study how people answer new questions about experiments they've already run.
+A machine learning (ML) team might save the accuracy score for each model it trains. Months later, a colleague wants to know whether two models with the same score made the same mistakes.
+What can that colleague recover from the old runs, and what did the team need to record at the time?
 </p>
 
 <p>
-During my Ph.D. at UC Berkeley, advised by <a href="https://dsf.berkeley.edu/jmh/" target="_blank">Joe Hellerstein</a> in the <a href="http://rise.cs.berkeley.edu/" target="_blank">RISE Lab</a>,
-I developed <a href="https://github.com/ucbrise/flor" target="_blank">FlorDB</a>, a logging and checkpointing database that lets developers query the context of past machine learning runs as dataframes, including information they did not think to log at the time
+During my Ph.D. in UC Berkeley's <a href="http://rise.cs.berkeley.edu/" target="_blank">RISE Lab</a> with <a href="https://dsf.berkeley.edu/jmh/" target="_blank">Joe Hellerstein</a>, I developed <a href="https://github.com/ucbrise/flor" target="_blank">FlorDB</a>, a database for taking new measurements from past ML experiments.
+To compare those two models, a developer can add a logging statement to today's code. FlorDB replays the relevant steps from saved checkpoints to recover the individual predictions from both runs
 (<a href="http://www.vldb.org/pvldb/vol14/p682-garcia.pdf" target="_blank">VLDB '21</a>, <a href="https://www.vldb.org/cidrdb/papers/2025/p33-garcia.pdf" target="_blank">CIDR '25</a>).
-With Shreya Shankar, I also co-led an interview study of ML engineers across industries (<a href="https://dl.acm.org/doi/pdf/10.1145/3653697" target="_blank">CSCW '24</a>).
-We found that production ML depends on substantial manual, iterative work and team knowledge. Engineers often struggle to explain what their models did and why, relying on constant monitoring, on-call rotations, handwritten filters, and hard-won institutional knowledge.
-These findings inform my work on systems that help teams preserve and retrieve the context needed to manage ML over time.
+With Shreya Shankar, I co-led an interview study of 18 ML engineers across industries (<a href="https://dl.acm.org/doi/pdf/10.1145/3653697" target="_blank">CSCW '24</a>).
+One engineer described meeting with two teammates each week to review their model's mistakes. Analysts then collected similar cases so the team could test the next version on the kinds of errors people were seeing in practice.
+I want an engineer who inherits those tests to be able to trace a case back to the mistake that prompted the team to add it.
 My Ph.D. work was supported by an NSF Graduate Research Fellowship and a UC Berkeley Chancellor's Fellowship.
 </p>
 
 <p>
-I'm currently a postdoc at Arizona State University's <a href="https://vader.lab.asu.edu/#/" target="_blank">VADER Lab</a>,
-advised by <a href="https://rmaciejewski.faculty.asu.edu/" target="_blank">Ross Maciejewski</a>.
-My recent work includes citation analysis and static checks of bulk academic submissions, as well as cost-benefit modeling of interactive ML systems (<a href="/dat/IVML_Cost_Benefit_2026_VIS.pdf" target="_blank">VIS '26</a>).
-With <a href="https://search.asu.edu/profile/108687" target="_blank">Tyson Winarski</a> at ASU's law school, I work on <a href="https://github.com/bwerick/scanstudio" target="_blank">ScanStudio</a>, which lets people digitize the papers and books they own and rely on, without cutting the bindings.
-With <a href="https://ransml.github.io/lens-lab/index.html" target="_blank">Ransalu Senanayake</a>, I lead a contextual inquiry into logging practices in robotics labs, studying how teams record physical experiments that may be impossible to replay.
-My postdoctoral work is supported by a Presidential Postdoctoral Fellowship.
+I'm a Presidential Postdoctoral Fellow in ASU's <a href="https://vader.lab.asu.edu/#/" target="_blank">VADER Lab</a>, where I work with my advisor, <a href="https://rmaciejewski.faculty.asu.edu/" target="_blank">Ross Maciejewski</a>.
+With <a href="https://ransml.github.io/lens-lab/index.html" target="_blank">Ransalu Senanayake</a>, I lead an interview study of how robotics researchers document physical experiments. If a robot succeeds on one trial and fails on the next, how can a lab mate check whether an object moved between trials?
+Drawing on those interviews, we plan to design tools with the labs so a researcher can open a trial's log and find the photos and notes that show where the object started.
+With <a href="https://search.asu.edu/profile/108687" target="_blank">Tyson Winarski</a> at ASU's Sandra Day O'Connor College of Law, I develop <a href="https://github.com/bwerick/scanstudio" target="_blank">ScanStudio</a>, which lets readers digitize their own papers and books with a webcam while keeping bindings intact.
+My recent work also includes linking citation and statistical checks to the passages they flag in manuscripts, and modeling when the benefits of human input in interactive ML systems justify the time and effort involved (<a href="/dat/IVML_Cost_Benefit_2026_VIS.pdf" target="_blank">VIS '26</a>, <a href="vis26.html" target="_blank">Slides</a>).
 </p>
 
 <p>
